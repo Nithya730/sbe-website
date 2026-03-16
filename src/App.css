@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+/* html {
+  scroll-behavior: smooth;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+}
